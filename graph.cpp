@@ -36,7 +36,6 @@ Node::Node(const int i, int* c)
    color = 0;
    x1 = c[0];
    y1 = c[1];
-   //ttt
    x2 = c[2];
    y2 = c[3];
 }
