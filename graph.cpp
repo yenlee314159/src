@@ -38,6 +38,7 @@ Node::Node(const int i, int* c)
    y1 = c[1];
    x2 = c[2];
    y2 = c[3];
+   ref = 0;
 }
 
 void Node::addEdge(Edge *e)
